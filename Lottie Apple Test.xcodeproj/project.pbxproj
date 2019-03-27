@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D901555224C052F0075356D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D901554224C052F0075356D /* AppDelegate.swift */; };
+		8D901557224C052F0075356D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D901556224C052F0075356D /* ViewController.swift */; };
+		8D90155A224C052F0075356D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D901558224C052F0075356D /* Main.storyboard */; };
+		8D90155C224C05320075356D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D90155B224C05320075356D /* Assets.xcassets */; };
+		8D901567224C05320075356D /* Lottie_Apple_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D901566224C05320075356D /* Lottie_Apple_TestTests.swift */; };
+		8D901572224C05320075356D /* Lottie_Apple_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D901571224C05320075356D /* Lottie_Apple_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D901563224C05320075356D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D901549224C052F0075356D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D901550224C052F0075356D;
+			remoteInfo = "Lottie Apple Test";
+		};
+		8D90156E224C05320075356D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D901549224C052F0075356D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D901550224C052F0075356D;
+			remoteInfo = "Lottie Apple Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D901551224C052F0075356D /* Lottie Apple Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie Apple Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D901554224C052F0075356D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D901556224C052F0075356D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D901559224C052F0075356D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D90155B224C05320075356D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D90155D224C05320075356D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D901562224C05320075356D /* Lottie Apple TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lottie Apple TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D901566224C05320075356D /* Lottie_Apple_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottie_Apple_TestTests.swift; sourceTree = "<group>"; };
+		8D901568224C05320075356D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D90156D224C05320075356D /* Lottie Apple TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lottie Apple TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D901571224C05320075356D /* Lottie_Apple_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottie_Apple_TestUITests.swift; sourceTree = "<group>"; };
+		8D901573224C05320075356D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D90154E224C052F0075356D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D90155F224C05320075356D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D90156A224C05320075356D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D901548224C052F0075356D = {
+			isa = PBXGroup;
+			children = (
+				8D901553224C052F0075356D /* Lottie Apple Test */,
+				8D901565224C05320075356D /* Lottie Apple TestTests */,
+				8D901570224C05320075356D /* Lottie Apple TestUITests */,
+				8D901552224C052F0075356D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D901552224C052F0075356D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D901551224C052F0075356D /* Lottie Apple Test.app */,
+				8D901562224C05320075356D /* Lottie Apple TestTests.xctest */,
+				8D90156D224C05320075356D /* Lottie Apple TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D901553224C052F0075356D /* Lottie Apple Test */ = {
+			isa = PBXGroup;
+			children = (
+				8D901554224C052F0075356D /* AppDelegate.swift */,
+				8D901556224C052F0075356D /* ViewController.swift */,
+				8D901558224C052F0075356D /* Main.storyboard */,
+				8D90155B224C05320075356D /* Assets.xcassets */,
+				8D90155D224C05320075356D /* Info.plist */,
+			);
+			path = "Lottie Apple Test";
+			sourceTree = "<group>";
+		};
+		8D901565224C05320075356D /* Lottie Apple TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D901566224C05320075356D /* Lottie_Apple_TestTests.swift */,
+				8D901568224C05320075356D /* Info.plist */,
+			);
+			path = "Lottie Apple TestTests";
+			sourceTree = "<group>";
+		};
+		8D901570224C05320075356D /* Lottie Apple TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D901571224C05320075356D /* Lottie_Apple_TestUITests.swift */,
+				8D901573224C05320075356D /* Info.plist */,
+			);
+			path = "Lottie Apple TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D901550224C052F0075356D /* Lottie Apple Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D901576224C05320075356D /* Build configuration list for PBXNativeTarget "Lottie Apple Test" */;
+			buildPhases = (
+				8D90154D224C052F0075356D /* Sources */,
+				8D90154E224C052F0075356D /* Frameworks */,
+				8D90154F224C052F0075356D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lottie Apple Test";
+			productName = "Lottie Apple Test";
+			productReference = 8D901551224C052F0075356D /* Lottie Apple Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D901561224C05320075356D /* Lottie Apple TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D901579224C05320075356D /* Build configuration list for PBXNativeTarget "Lottie Apple TestTests" */;
+			buildPhases = (
+				8D90155E224C05320075356D /* Sources */,
+				8D90155F224C05320075356D /* Frameworks */,
+				8D901560224C05320075356D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D901564224C05320075356D /* PBXTargetDependency */,
+			);
+			name = "Lottie Apple TestTests";
+			productName = "Lottie Apple TestTests";
+			productReference = 8D901562224C05320075356D /* Lottie Apple TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D90156C224C05320075356D /* Lottie Apple TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D90157C224C05320075356D /* Build configuration list for PBXNativeTarget "Lottie Apple TestUITests" */;
+			buildPhases = (
+				8D901569224C05320075356D /* Sources */,
+				8D90156A224C05320075356D /* Frameworks */,
+				8D90156B224C05320075356D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D90156F224C05320075356D /* PBXTargetDependency */,
+			);
+			name = "Lottie Apple TestUITests";
+			productName = "Lottie Apple TestUITests";
+			productReference = 8D90156D224C05320075356D /* Lottie Apple TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D901549224C052F0075356D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = xds;
+				TargetAttributes = {
+					8D901550224C052F0075356D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8D901561224C05320075356D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8D901550224C052F0075356D;
+					};
+					8D90156C224C05320075356D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8D901550224C052F0075356D;
+					};
+				};
+			};
+			buildConfigurationList = 8D90154C224C052F0075356D /* Build configuration list for PBXProject "Lottie Apple Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D901548224C052F0075356D;
+			productRefGroup = 8D901552224C052F0075356D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D901550224C052F0075356D /* Lottie Apple Test */,
+				8D901561224C05320075356D /* Lottie Apple TestTests */,
+				8D90156C224C05320075356D /* Lottie Apple TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D90154F224C052F0075356D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D90155C224C05320075356D /* Assets.xcassets in Resources */,
+				8D90155A224C052F0075356D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D901560224C05320075356D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D90156B224C05320075356D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D90154D224C052F0075356D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D901557224C052F0075356D /* ViewController.swift in Sources */,
+				8D901555224C052F0075356D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D90155E224C05320075356D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D901567224C05320075356D /* Lottie_Apple_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D901569224C05320075356D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D901572224C05320075356D /* Lottie_Apple_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D901564224C05320075356D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D901550224C052F0075356D /* Lottie Apple Test */;
+			targetProxy = 8D901563224C05320075356D /* PBXContainerItemProxy */;
+		};
+		8D90156F224C05320075356D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D901550224C052F0075356D /* Lottie Apple Test */;
+			targetProxy = 8D90156E224C05320075356D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D901558224C052F0075356D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D901559224C052F0075356D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D901574224C05320075356D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+			};
+			name = Debug;
+		};
+		8D901575224C05320075356D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 12.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D901577224C05320075356D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B978JYUBV3;
+				INFOPLIST_FILE = "Lottie Apple Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xds.Lottie-Apple-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		8D901578224C05320075356D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B978JYUBV3;
+				INFOPLIST_FILE = "Lottie Apple Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xds.Lottie-Apple-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		8D90157A224C05320075356D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B978JYUBV3;
+				INFOPLIST_FILE = "Lottie Apple TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xds.Lottie-Apple-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lottie Apple Test.app/Lottie Apple Test";
+			};
+			name = Debug;
+		};
+		8D90157B224C05320075356D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B978JYUBV3;
+				INFOPLIST_FILE = "Lottie Apple TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xds.Lottie-Apple-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lottie Apple Test.app/Lottie Apple Test";
+			};
+			name = Release;
+		};
+		8D90157D224C05320075356D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B978JYUBV3;
+				INFOPLIST_FILE = "Lottie Apple TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xds.Lottie-Apple-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Lottie Apple Test";
+			};
+			name = Debug;
+		};
+		8D90157E224C05320075356D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B978JYUBV3;
+				INFOPLIST_FILE = "Lottie Apple TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xds.Lottie-Apple-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Lottie Apple Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D90154C224C052F0075356D /* Build configuration list for PBXProject "Lottie Apple Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D901574224C05320075356D /* Debug */,
+				8D901575224C05320075356D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D901576224C05320075356D /* Build configuration list for PBXNativeTarget "Lottie Apple Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D901577224C05320075356D /* Debug */,
+				8D901578224C05320075356D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D901579224C05320075356D /* Build configuration list for PBXNativeTarget "Lottie Apple TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D90157A224C05320075356D /* Debug */,
+				8D90157B224C05320075356D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D90157C224C05320075356D /* Build configuration list for PBXNativeTarget "Lottie Apple TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D90157D224C05320075356D /* Debug */,
+				8D90157E224C05320075356D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D901549224C052F0075356D /* Project object */;
+}
