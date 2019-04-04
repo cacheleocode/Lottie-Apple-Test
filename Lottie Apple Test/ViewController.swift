@@ -7,14 +7,25 @@
 //
 
 import UIKit
+import Lottie
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // set animation Lottie JSON file
+        let exampleAnimationView = AnimationView(name: "example")
+        
+        // configure animation
+        exampleAnimationView.frame = CGRect(x: 0, y: 0, width: 1920, height: 1080)
+        exampleAnimationView.center = self.view.center
+        exampleAnimationView.contentMode = .scaleAspectFill
+        exampleAnimationView.loopMode = LottieLoopMode.loop
+        
+        view.addSubview(exampleAnimationView)
+        
+        // play animation
+        exampleAnimationView.play()
     }
-
-
 }
-
